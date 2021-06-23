@@ -1,0 +1,68 @@
+@media screen and (max-width: 1205px){
+  .our-blog__container{
+    text-align: center;
+  }
+    .our-blog__container__item{
+      width: 90%;
+    }
+  .our-blog__square{
+    display: none;
+  }
+
+  #subscribe-to-newsletter{
+    margin-top: 300px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .our-team__about{
+    text-align: center;
+  }
+
+  .our-team__about__social{
+    width: 100%;
+  }
+
+  .our-team__about__social::before{
+    content: '' url('../img/qqqq.png');
+    position: static;
+  }
+}
+
+@media screen and (max-width: 790px){
+  #header{
+    height: 1400px;
+  }
+
+  .about-us__content{
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: static;
+  }
+  .about-us__square{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .stats__container{
+    padding-top: 20px;
+  }
+  .work-steps__container__item{
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .stats__container__item span{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1{
+    padding-top: 290px;
+  }
+}

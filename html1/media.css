@@ -1,0 +1,70 @@
+@media screen and (max-width: 940px) {
+  .footer__btn{
+    display: block;
+  }
+  .contact-us__inputs{
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .about-us__container__item-left-text{
+    text-align: right;
+    position: static;
+    margin-right: 20px;
+  }
+  .about-us__container__item-right-text{
+    position: static;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 845px){
+  .contact-us__your-message{
+    height: 150px;
+  }
+  .footer__btn{
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .contact-us__inputs{
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .contact-us__caption{
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  .contact-us__your-message{
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .copyright{
+    position: static;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .header__container_welcome{
+    margin-top: 220px;
+  }
+  .logo-container{
+  margin-bottom: 200px;
+  }
+
+  .about-us__container__item-left-text{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .about-us__container__item-right-text{
+    text-align: center;
+    display: block;
+      margin: 0 auto;
+  }
+}
